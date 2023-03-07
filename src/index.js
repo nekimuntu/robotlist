@@ -2,12 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import 'tachyons'
 import reportWebVitals from './reportWebVitals';
+import Yaya from './Component/yannick';
+import './assets/style.css'
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
+  <React.StrictMode> 
+      <Yaya msg={"Robot Land"} />
+      <App />
   </React.StrictMode>
 );
 
